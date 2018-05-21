@@ -7,7 +7,7 @@ class IntercomConnector extends HullConnectorNextGen {
   }
 
   /**
-   * run on notifications and batch
+   * run on user update notifications and batch
    */
   handleUserUpdateMessages(ctx, messages, options = {}) {
 
@@ -15,7 +15,7 @@ class IntercomConnector extends HullConnectorNextGen {
   }
 
   /**
-   * run on
+   * run on account update notifications and batch
    */
   handleAccountUpdateMessages(ctx, messages, options) {
 
